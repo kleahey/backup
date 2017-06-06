@@ -1,0 +1,82 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link href='css/norris.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:900italic' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class "col-md-6">
+      <div class="text-center" id="header">
+        <h1>Daily Dose of Chuck Norris</h1>
+      </div>
+      <div class="text-center" id="norrisImage">
+        <img src="http://vignette4.wikia.nocookie.net/uncyclopedia/images/7/75/Cnorris.png/revision/latest?cb=20080121095540">
+      </div>
+    </div>
+      <div class="col-md-3"></div>
+  </div>
+
+</div>
+
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-1">
+      <div class='inline' id="twitterContainer">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="kleahey" data-hashtags="chucknorris" data-size="large">Tweet</a>
+        <script>
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+        </script>
+      </div>
+    </div>
+    <div class="col-md-8"></div>
+  </div>
+
+</div>
+
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <div class="well text-center" id="quoteContainer">
+        <p id="message"></p>
+      </div>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+
+</div>
+
+<div class="container-fluid">
+  
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-1">
+      <div class= id="buttonContainer">
+        <button class="btn btn-primary" id="newQuote">New Quote</button>
+      </div>
+    </div>
+    <div class="col-md-8"></div>
+  </div>
+
+</div>
+
+<script src="js/norris.js"></script>
+
+</body>
+
+</html>

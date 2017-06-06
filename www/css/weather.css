@@ -1,0 +1,67 @@
+body {
+  background-color: #7a848d;
+}
+
+#header {
+  background-color: #acad97;
+  color: #e3ddd3;
+}
+
+#alerts {
+  background-color: #ccc9c0;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+#alertContainer {
+  margin-top: 10px;
+}
+
+#conditionsContainer {
+  border: solid;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+
+#fullConditions {
+  background-color: #f0ece2;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 1px;
+}
+
+#fullForecast {
+  background-color: #ccc9c0;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 1px;
+}
+
+h3 {
+  font-style: italic;
+}
+
+#observationTime {
+  font-size: 10px
+}
+
+#observationTemp {
+  font-size: 36px
+}
+
+#forecastData {
+  font-size: 11px;
+}
+
+#dayOfWeek {
+  font-weight: bold;
+}
+
+#wuLogo {
+  width: 120px;
+}
+
+#footer {
+  background-color: #acad97;
+  color: #e3ddd3;
+}
